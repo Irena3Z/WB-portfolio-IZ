@@ -34,6 +34,42 @@
                 
                    
         </div>
+        <div id="kontaktforma">
+            <h2>Send message</h2>
+            <div class="ui form">
+                <form method="post">
+                    <input type ="hidden" name="lang" value="en">
+                    <input type="hidden" name="dir" value="contacts">
+                    <div class="three fields">
+                        <div class="field">
+                            <label>Name</label>
+                            <input type="text" name="name" value>
+                        </div>
+                        <div class="field">
+                            <label>Number</label>
+                            <input type="text" name="phone" value>
+                        </div>
+                        <div class="field required">
+                            <label>E-mail</label>
+                            <input type="text" name="email" value>
+                        </div>
+                    </div>
+                    <div class="field required">
+                        <label>Send me a message</label>
+                        <textarea name="question" rows="8"></textarea>
+                    </div>
+                    <div class="one-field">
+                        <div class="eight wide field">
+                            <input type="submit" class="ui button"
+                             style="float:right;
+                             font-family: open Sans;
+                             width:200px" name="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
     </div>
 </div>
     

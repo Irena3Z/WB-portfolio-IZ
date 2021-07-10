@@ -127,3 +127,13 @@ body {
       
      
     } 
+
+    
+    #kontaktforma {
+      box-sizing: border-box;
+      max-width: 1200px;
+      margin: 10px auto 0;
+      padding: 25px;
+      background-color: rgb(245,245,245);
+      border: 1px rgb(240,240,240) solid;
+      

@@ -81,11 +81,20 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    width: 1700px;
-    background: #fff;
+   
+    
     margin: 40px auto;
+    color:#fff;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-height: max-content;
+   
+  }
 
-    }
+    
 
     /* about me section  */
 
@@ -98,7 +107,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: black;
+    color: #fff;
     margin-bottom: 20px;
     }
 
@@ -107,7 +116,7 @@ body {
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
-    color: black;
+    color: #fff;
     margin-bottom: 25px;
     }
 
@@ -115,13 +124,17 @@ body {
     width: 400px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
-    color: #595959;
+    color: #c4bcbc;
+    box-sizing: border-box;
+    max-height: max-content;
     }
 
     .main-content-section {
     padding: 100px 90px;
+    box-sizing: border-box;
+    max-height: max-content;
     }
 
     .main-content-title {
@@ -129,8 +142,11 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: black;
-    margin-bottom: 10px;
+    color: #fff;
+    margin-bottom: 15px ;
+    margin-top: 15px;
+    box-sizing: border-box;
+    max-height: max-content;
     }
 
     /* my projects section */
@@ -141,11 +157,15 @@ body {
 
     .my-projects-list {
     padding: 0 0 0 17px;
+    box-sizing: border-box;
+    max-height: max-content;
     }
 
   .my-projects-item {
-    color: black;
+    color: #fff;
     font-weight: 700px;
+    box-sizing: border-box;
+    max-height: max-content;
   }
 
   .my-projects-text {
@@ -153,8 +173,10 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #c4bcbc;
     margin-left: 7px;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   
   .my-projects-link {
@@ -162,14 +184,16 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #c4bcbc;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   .my-projects-bracket {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: black;
+    color: #fff;
   }
   /* my work experience section */
   .my-work-experience-section {
@@ -191,7 +215,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: black;
+    color: #fff;
     margin-bottom: 10px;
   }
   .my-work-experience-period {
@@ -204,7 +228,7 @@ body {
   }
   
   .my-work-experience-divider {
-    color: black;
+    color: #fff;
   }
   .my-work-experience-duties {
     padding: 0 0 0 18px;
@@ -214,7 +238,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #c4bcbc;
   }
   /* my education section */
   
@@ -223,7 +247,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: black;
+    color: #fff;
     margin-bottom: 10px;
   }
   
@@ -240,11 +264,11 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    color: #000000;
+    color: #fff;
     margin-bottom: 10px;
   }
   .my-education-divider {
-    color: black;
+    color: #fff;
   }
   .my-education-period {
     font-style: normal;
@@ -293,7 +317,7 @@ body {
     margin-right: 7px;
   }
   .contact-section-link {
-    color: #565e6a;
+    color: #c4bcbc;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
