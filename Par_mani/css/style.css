@@ -1,83 +1,132 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    color:#fff;
-    background-color: #333;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    max-height: max-content;
-  }
-    
-    *{
+
+    body {
+      font-family: 'Poppins', sans-serif;
       color:#fff;
       background-color: #333;
       margin: 0;
       padding: 0;
+      list-style-type: none;
       text-decoration: none;
-      box-sizing: border-box;
       max-height: max-content;
-     
+      font-family: inherit;
+      line-height: inherit;
     }
+
   
-  
-   .navbar{
+  *{
+      font-family: "Poppins",sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      text-decoration: none;
+      max-height: -webkit-max-content;
+      max-height: max-content;
+  }
+
+  .menu-icon{
+   display: none;
     color: lightcoral;
-    background-color: lightcoral;
-    font-size: x-large;
-    
-  
-   }
-   .navbar-text:hover{
-    background-color: rgb(212, 97, 97);;
+    color:#000;
+
+    height:25px;
+    width:25px;
   }
+  img, svg {
+    display: block;
+    vertical-align: middle;
+}
+
+ .navbar{
+  color: lightcoral;
+  background-color: lightcoral;
+  font-size: x-large;
   
-   .container{
-     margin:auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
-     position: relative;
-     padding: 10px 4px 10px 50px;
-     width: 100%;
-     max-width: 100%;
-     color: lightcoral;
-    background-color: lightcoral;
-    
+
+ }
+ .navbar-text:hover{
+  background-color: rgb(212, 97, 97);;
+}
+
+.nav-options.active {
+  max-width: 480px;
+    min-height: -webkit-fill-available;
+    min-height: 100px;
+    height: 100px;
+    top: 80px;
+    right: 0;
+    opacity: 1;
+    transition: all .5s ease;
+    z-index: 1;
+    -webkit-align-content: center;
+    align-content: center;
+    padding-left: 0;
+}
+.nav-options {
+  max-width: 480px;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  min-height: -webkit-fill-available;
+  min-height: 100px;
+  height: 100px;
+  position: absolute;
+  top: -200%;
+  right: 0;
+  opacity: 0;
+  transition: all .5s ease;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px 10px 4px;
+  /* top right bottom left */
+  position: relative;
+  flex-direction: row;
+  padding-left:50px;
+  color: lightcoral;
+  background-color: lightcoral;
+  width:100%;
+  max-width: 100%;
+  align-items: center;
+}
+
+
+ 
+ .initials{
+   background-color: lightcoral;
+   color: #000;
+   font-size: 45px;
+ }
+ 
+
+  .navbar-text{
+    color: #000;
+    min-height: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+    border-right: 5px;
+   background-color: lightcoral;
+ }
+
+ .about-h1{
+  color:rgb(216, 212, 212);
+  font-size: x-large;
   
-   }
-   
-   .initials{
-     background-color: lightcoral;
-     color: #000;
-     font-size: 45px;
-   }
-   
-    .nav-options{
-     display: flex;
-   }
-  
-   .navbar-text{
-     color: #000;
-     min-height: 50px;
-     display: inline-flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     justify-items: center;
-     padding: 10px;
-     border-right: 5px;
-     background-color: lightcoral;
-  
-   }
-   .about-h1{
-    color:rgb(216, 212, 212);
-    font-size: x-large;
-  }
+}
   
   .intro{
-    height: 100vh;
-    min-height: 100vh;
+    font-size: 10px;
+    height: 40vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -91,22 +140,9 @@ body {
   }
   
   .intro-text{
-    font-size: 50px;
+    font-size: 30px; 
   }
   
-  .profile-image{
-    height: 60vh;
-    width: 400px;
-    height: 400px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    
-    border-width: 4px;
-    border-color: #fff;
-    max-width: 100%;
-    text-decoration: none;
-    margin-top:  50px;
-  }
   
   .media-options{
     height: 100vh;
@@ -127,129 +163,67 @@ body {
       
      
     } 
-
-    .row > .column {
-      padding: 0 8px;
-    }
     
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Create four equal columns that floats next to eachother */
-    .column {
-      float: left;
-      width: 25%;
-    }
-    
-    /* The Modal (background) */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      padding-top: 100px;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: black;
-    }
-    
-    /* Modal Content */
-    .modal-content {
-      position: relative;
-      background-color: #fefefe;
+  .comments {
+    color: black;
+      width: 400px;
       margin: auto;
-      padding: 0;
-      width: 90%;
-      max-width: 1200px;
-    }
-    
-    /* The Close Button */
-    .close {
-      color: white;
+  
+  }
+  .form_block {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      color: black;
+  }
+  label{
+      margin-bottom: 5px;
+      color: rgb(253, 253, 253);
+  }
+  
+  .comment {
+      position:relative;
+      background: #fff;
+      margin: 20px;
+      padding: 5px;
+      color: #000;
+  }
+  .comment pre {
+      margin-top: 20px;
+      padding: 5px;
+      background: rgb(240, 240, 240);
+      color: black;
+  }
+  
+  .name {
+      font-size: 0.8em;
+      color: black;
+  }
+  .time {
+      float:right;
+      color: #000;
+  }
+  .remove {
       position: absolute;
-      top: 10px;
-      right: 25px;
-      font-size: 35px;
-      font-weight: bold;
-    }
-    
-    .close:hover,
-    .close:focus {
-      color: #999;
-      text-decoration: none;
-      cursor: pointer;
-    }
-    
-    /* Hide the slides by default */
-    .mySlides {
-      display: none;
-    }
-    
-    /* Next & previous buttons */
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -50px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    
-    /* Caption text */
-    .caption-container {
+      background: #fff;
+      top: -20px;
+      right: -20px;
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      font-size: 1.25em;
+      line-height: 1.5em;
       text-align: center;
-      background-color: black;
-      padding: 2px 16px;
-      color: white;
-    }
-    
-    img.demo {
-      opacity: 0.6;
-    }
-    
-    .active,
-    .demo:hover {
-      opacity: 1;
-    }
-    
-    img.hover-shadow {
-      transition: 0.3s;
-    }
-    
-    .hover-shadow:hover {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+      border: 1px solid black;
+      border-radius: 1.5em;
+      text-decoration:none;
+      color: black;
+  }
+  
+  .update {
+      position:absolute;
+      top: 25px;
+      right:0;
+      color: black;
+  }
+  

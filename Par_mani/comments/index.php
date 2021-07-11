@@ -29,7 +29,7 @@
 <div id="app">
     <section class="comments">
     <h1>Comments</h1>
-    <form class="comments__form" action="/xampp/comments/" method="post">
+    <form class="comments__form" action="/xampp/Portfolio_IZ/Par_mani/" method="post">
         <div class="form_block">
             <label for="name">Name</label>
             <input type="text" name="name" id="name">

@@ -7,19 +7,33 @@ body {
   list-style-type: none;
   text-decoration: none;
   max-height: max-content;
+  font-family: inherit;
+  line-height: inherit;
 }
   
   *{
-    color:#fff;
-    background-color: #333;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    max-height: max-content;
-   
+      font-family: "Poppins",sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      text-decoration: none;
+      max-height: -webkit-max-content;
+      max-height: max-content;
   }
 
+  .menu-icon{
+   display: none;
+    color: lightcoral;
+    color:#000;
+
+    height:25px;
+    width:25px;
+  }
+  img, svg {
+    display: block;
+    vertical-align: middle;
+}
 
  .navbar{
   color: lightcoral;
@@ -32,21 +46,55 @@ body {
   background-color: rgb(212, 97, 97);;
 }
 
- .container{
-   margin:auto;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   position: relative;
-   padding: 10px 4px 10px 50px;
-   width: 100%;
-   max-width: 100%;
-   color: lightcoral;
-  background-color: lightcoral;
-  
+.nav-options.active {
+  max-width: 480px;
+    min-height: -webkit-fill-available;
+    min-height: 100px;
+    height: 100px;
+    top: 80px;
+    right: 0;
+    opacity: 1;
+    transition: all .5s ease;
+    z-index: 1;
+    -webkit-align-content: center;
+    align-content: center;
+    padding-left: 0;
+}
+.nav-options {
+  max-width: 480px;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  min-height: -webkit-fill-available;
+  min-height: 100px;
+  height: 100px;
+  position: absolute;
+  top: -200%;
+  right: 0;
+  opacity: 0;
+  transition: all .5s ease;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+}
 
- }
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px 10px 4px;
+  /* top right bottom left */
+  position: relative;
+  flex-direction: row;
+  padding-left:50px;
+  color: lightcoral;
+  background-color: lightcoral;
+  width:100%;
+  max-width: 100%;
+  align-items: center;
+}
+
+
  
  .initials{
    background-color: lightcoral;
@@ -58,18 +106,19 @@ body {
    display: flex;
  }
 
- .navbar-text{
-   color: #000;
-   min-height: 50px;
-   display: inline-flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   justify-items: center;
-   padding: 10px;
-   border-right: 5px;
-   background-color: lightcoral;
 
+  .navbar-text{
+    color: #000;
+    min-height: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+    border-right: 5px;
+   background-color: lightcoral;
  }
+
  .about-h1{
   color:rgb(216, 212, 212);
   font-size: x-large;
@@ -92,24 +141,44 @@ body {
 }
 
 .intro-text{
-  font-size: 50px;
+  font-size: 30px;
+}
+.Profile{
+ height: 60vh;
+  min-height: -webkit-fill-available;
+  min-height: 60vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  flex-wrap: wrap;
 }
 
-.profile-image{
-  height: 60vh;
-  width: 600px;
-  height: 600px;
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgba(255,255,255,var(--tw-border-opacity));
+}
+.border-4 {
+  border-width: 4px;
+}
+.rounded-full {
+  width: 300px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 9999px;
-  border-width: 4px;
-  border-color: #fff;
-  max-width: 100%;
   text-decoration: none;
-  margin-top:  50px;
+  border-radius: 9999px;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  border-style: solid;
 }
 .informacion{
-  font-size: 35px;
+  font-size: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -118,10 +187,10 @@ body {
   margin-bottom: 10px;
 }
 .about-me{
-  font-size: 25px;
+  font-size: 15px;
 }
 .my-hobby{
-font-size: 25px;
+font-size: 15px;
 
 }
 .icons-for-social{
@@ -131,19 +200,27 @@ font-size: 25px;
   padding: 40px;
   position: relative;
   align-items: center;
-  font-size: 35px;
+  font-size: 15px;
+  box-sizing: border-box;
+  max-height: max-content;
 }
 .media-options{
-  font-size: 35px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  box-sizing: border-box;
+  max-height: max-content;
  
   
 }
   .social-links{
-    height: 0;
+    width: 10px;
+    height: 10px;
     min-height: 10vh;
     
-    margin-top: 0px;
-    padding: 70px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: max-content;
     
    
   } 

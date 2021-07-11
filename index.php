@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="comments/index.php">
-<?php
-include __DIR__. 'comments/index.php>'?>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irena Zbitkovska</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="icon-fonts.css" />
+    <link rel="stylesheet" href="css/style.css">
 
 
 <div id="root">
@@ -13,51 +18,72 @@ include __DIR__. 'comments/index.php>'?>
             <div class="container" style="transform: none;">
                 <h1 class="initials">IZ</h1>
                 <ul>
-                    <nav class="nav-options">
-                        <a aria-current="page" class="navbar-text active" href="/">About me</a>
-                        <a class="navbar-text" href="/Par_mani">Gallery</a>
-                        <a class="navbar-text" href="/CV">Resume</a>
-                        <a class="navbar-text" href="/Kontakti">Contacts</a>
+                    <nav class="nav-options active">
+                        <a aria-current="page" class="navbar-text active" href="/xampp/Portfolio_IZ/">About me</a>
+                        <a class="navbar-text" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
+                        <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
+                        <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
                     </nav>
                 </ul>
+                <div class="mobile-menu mr-8">
+                <svg stroke="currentColor"
+                 fill="currentColor"
+                  stroke-width="0"
+                   viewBox="0 0 24 24" 
+                   class="menu-icon"
+ 
+                     xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke="#000" stroke-width="2" d="M3,3 L21,21 M3,21 L21,3"></path>
+            </svg>
+                </div>
+    
             </div>
         </header>
         <div class="intro">
-            <h1 class="intro-text">My hobby is taking pictures. I want to share my gallery with you.</h1>
+            <h1 class="intro-text">Hello, I am Irena Zbitkovska</h1>
             <span class="">
-                <img src="img/1.jpg" alt="My Pic" class="profile-image">
-                <img src="img/2.jpg" alt="My Pic" class="profile-image">
-                <img src="img/3.jpg" alt="My Pic" class="profile-image">
-                <img src="img/4.jpg" alt="My Pic" class="profile-image">
-                <img src="img/5.jpg" alt="My Pic" class="profile-image">
-                <img src="img/6.jpg" alt="My Pic" class="profile-image">
-                <img src="img/7.jpg" alt="My Pic" class="profile-image">
-                <img src="img/8.jpg" alt="My Pic" class="profile-image">
-                <img src="img/9.jpg" alt="My Pic" class="profile-image">
-                <img src="img/10.jpg" alt="My Pic" class="profile-image">
-                <img src="img/11.jpg" alt="My Pic" class="profile-image">
-                <img src="img/12.jpg" alt="My Pic" class="profile-image">
-                <img src="img/13.jpg" alt="My Pic" class="profile-image">
-                <img src="img/14.jpg" alt="My Pic" class="profile-image">
-                <img src="img/15.jpg" alt="My Pic" class="profile-image">
-                <img src="img/16.jpg" alt="My Pic" class="profile-image">
-                <img src="img/17.jpg" alt="My Pic" class="profile-image">
-                <img src="img/18.jpg" alt="My Pic" class="profile-image">
-                <img src="img/19.jpg" alt="My Pic" class="profile-image">
-                <img src="img/20.jpg" alt="My Pic" class="profile-image">
-                <img src="img/21.jpg" alt="My Pic" class="profile-image">
-                <img src="img/22.jpg" alt="My Pic" class="profile-image">
-                <img src="img/23.jpg" alt="My Pic" class="profile-image">
-                <img src="img/24.jpg" alt="My Pic" class="profile-image">
-                <img src="img/25.jpg" alt="My Pic" class="profile-image">
-                <img src="img/26.jpg" alt="My Pic" class="profile-image">
-                <img src="img/27.jpg" alt="My Pic" class="profile-image">
-                <img src="img/28.jpg" alt="My Pic" class="profile-image">
-                <img src="img/29.jpg" alt="My Pic" class="profile-image">
-                <img src="img/30.jpg" alt="My Pic" class="profile-image">
-               
+ 
+                <img src="img/profpic.JPG"  alt="My Pic" class="rounded-full border-4 border-white" draggable="false" style="user-select: none; touch-action: none;">
             </span>
+            <div>
+                <h1 class="informacion">Some information </h1>
+                <p class="about-me">Integer efficitur eu sapien non malesuada. Proin erat urna, vulputate ac imperdiet nec, tristique eget erat. Aenean blandit rhoncus tellus sed suscipit. Sed vulputate tellus at odio consequat varius. Duis eget efficitur nisl, eu euismod neque. Vestibulum maximus libero ac eros pellentesque, vitae consectetur nisl sollicitudin. Proin vitae lectus at turpis imperdiet mattis non quis dolor.</p>
+                <br>
+                <br>
+                <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin turpis velit, vitae dictum tellus ultricies eget. Aliquam accumsan vehicula nisi. Sed semper laoreet tristique. Morbi tempor consectetur elit ac cursus. Maecenas at eros eu mi vehicula lobortis. Donec nisi nibh, tincidunt at varius ut, eleifend vel quam. Donec facilisis malesuada leo, a vehicula mauris tristique nec. Quisque eget neque sit amet neque fringilla eleifend. Sed pulvinar convallis suscipit. Integer pretium cursus metus, at molestie dolor ultrices consequat. Aenean aliquam mi ut dui laoreet sollicitudin. Ut ac eleifend tellus. Nulla eleifend nec tellus non condimentum. Aliquam ullamcorper maximus imperdiet.</p>
+    
+                <br>
+    
+                <p class="my-hobby">I am an active person, so I like to spend my free time in nature.So I take my camera and take pictures of landscapes.
+                </p>
+            </div>
+
+                <span class="icons-for-social">
+                    <h2 class="media-options">You can find me on these platforms</h2>
+                    
+                <a class="social-links" href="https://www.linkedin.com/in/irena-zbitkovska-88b473206/" target="_Blank">
+                    <i class="icon-linkedin"></i>
+                <span>Linkedin</span>
+                </a>
+                <a class="social-links" href="" target="_Blank">
+                    <i class="icon-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a class="social-links" href="https://www.facebook.com/irena.3Bit/" target="_Blank">
+                    <i class="icon-facebook2"></i>
+                    <span>Facebook</span>
+                </a>
+                <a class="social-links" href="https://github.com/Irena3Z" target="_Blank">
+                    <i class="icon-github"></i>
+                    <span>GitHub</span>
+                </a>
+                
+                </span>
+                   
         </div>
     </div>
 </div>
- 
+    
+</body>
+
+</html>

@@ -15,7 +15,7 @@
     if (array_key_exists('id', $_GET)) {
         $comment = $comment_obj->getEntry((int) $_GET['id']);
         if (!$comment) {
-            header('Location: /xampp/comments/index.php');
+            header('Location: /xampp/Portfolio_IZ/Par_mani/comments/index.php');
             exit();
         }
     }
@@ -32,16 +32,16 @@
             ]
         );
 
-        header('Location: /xampp/comments/index.php');
+        header('Location: /xampp/Portfolio_IZ/Par_mani/comments/index.php');
         exit();
     }
 ?>
 
-<a href="/xampp/comments/">back to comments</a>
+<a href="/xampp/Portfolio_IZ/Par_mani/comments/">back to comments</a>
 <div id="app">
     <section class="comments">
         <h1>Update Comment</h1>
-        <form class="comments__form" action="/xampp/comments/update.php" method="post">
+        <form class="comments__form" action="/xampp/Portfolio_IZ/Par_mani/comments/update.php" method="post">
             <input type="hidden" name="id" value="<?=$_GET['id']; ?>">
             <div class="form_block">
                 <label for="name">Name</label>

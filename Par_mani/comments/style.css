@@ -1,9 +1,16 @@
 body {
-    min-height: 100vh;
-    background: linear-gradient(rgba(176, 241, 115, 0.561), rgba(196, 252, 67, 0.459));
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    max-height: max-content;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
 .comments {
     width: 400px;
     margin: auto;
@@ -23,6 +30,7 @@ label{
     background: #fff;
     margin: 20px;
     padding: 5px;
+    color: #000;
 }
 .comment pre {
     margin-top: 20px;
