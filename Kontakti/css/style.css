@@ -8,6 +8,10 @@ body {
     text-decoration: none;
     max-height: max-content;
   }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
     
     *{
       color:#fff;
@@ -76,8 +80,8 @@ body {
   }
   
   .intro{
-    height: 100vh;
-    min-height: 100vh;
+    max-width: 100%;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -87,53 +91,154 @@ body {
     padding: 70px;
     margin-left: 100px;
     margin-right: 200px;
-    align-items: center;
+    align-items: stretch;
   }
   
   .intro-text{
-    font-size: 50px;
+    font-size: 70px;
   }
   
-  .profile-image{
-    height: 60vh;
-    width: 600px;
-    height: 600px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 9999px;
-    border-width: 4px;
-    border-color: #fff;
-    max-width: 100%;
-    text-decoration: none;
-    margin-top:  50px;
-  }
   
-  .media-options{
-    height: 100vh;
-    min-height: 100vh;
+  .icons-for-social{
+    height: 50vh;
+    min-height: 50vh;
     margin-top: 50px;
     padding: 40px;
     position: relative;
     align-items: center;
     font-size: 35px;
+  }
+  .media-options{
+    font-size: 35px;
+   
     
   }
     .social-links{
       height: 0;
-      min-height: 100vh;
+      min-height: 10vh;
       
       margin-top: 0px;
       padding: 70px;
       
      
     } 
-
     
     #kontaktforma {
       box-sizing: border-box;
-      max-width: 1200px;
-      margin: 10px auto 0;
-      padding: 25px;
-      background-color: rgb(245,245,245);
-      border: 1px rgb(240,240,240) solid;
+      max-width: 1500px;
       
+      margin: ;
+      padding: 25px;
+      background-color: lightcoral;
+      border: 1px rgb(240,240,240) solid;
+    }
+    .ui.form{
+      font-size: 1rem;
+      position: relative;
+      max-width: 100%;
+      
+    }
+    .ui.form.textarea{
+      width: 100%;
+    vertical-align: top;
+    }
+    input{
+      font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      margin: 0em;
+      outline: none;
+      -webkit-appearance: none;
+      tap-highlight-color: rgba(255, 255, 255, 0);
+      line-height: 1.2142em;
+      padding: 0.67861429em 1em;
+      font-size: 1em;
+      background: #FFFFFF;
+      border: 1px solid rgba(34, 36, 38, 0.15);
+      color: rgba(0, 0, 0, 0.87);
+      border-radius: 0.28571429rem;
+      box-shadow: 0em 0em 0em 0em transparent inset;
+      -webkit-transition: color 0.1s ease, border-color 0.1s ease;
+      transition: color 0.1s ease, border-color 0.1s ease;
+  }
+    
+    input.from textarea{
+      vertical-align: top;
+      margin: 0em;
+    -webkit-appearance: none;
+    tap-highlight-color: rgba(255, 255, 255, 0);
+    padding: 0.78571429em 1em;
+    background: #FFFFFF;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    outline: none;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 0.28571429rem;
+    box-shadow: 0em 0em 0em 0em transparent inset;
+    -webkit-transition: color 0.1s ease, border-color 0.1s ease;
+    transition: color 0.1s ease, border-color 0.1s ease;
+    font-size: 1em;
+    line-height: 1.2857;
+    resize: vertical;
+
+    }
+    textarea {
+      -webkit-writing-mode: horizontal-tb !important;
+      text-rendering: auto;
+      color: -internal-light-dark(black, white);
+      letter-spacing: normal;
+      word-spacing: normal;
+      text-transform: none;
+      text-indent: 0px;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      appearance: auto;
+      background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+      -webkit-rtl-ordering: logical;
+      flex-direction: column;
+      resize: auto;
+      cursor: text;
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+      column-count: initial !important;
+      margin: 0em;
+      font: 400 13.3333px Arial;
+      border-width: 1px;
+      border-style: solid;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+      border-image: initial;
+      padding: 2px;
+    }
+    *{
+      box-sizing: inherit;
+    }
+
+    .three.fields{
+     
+      display: flex;
+      flex-direction: row;
+      flex: 0 1 auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    }
+    .field{
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+    
+
+    }
+    .field.required{
+      display: flex;
+      flex-direction: column;
+      
+
+    }
+    .one-field{
+      display: flex;
+      flex-direction: row;
+      margin: 0 ;
+     
+    }

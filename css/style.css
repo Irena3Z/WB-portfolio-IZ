@@ -73,11 +73,12 @@ body {
  .about-h1{
   color:rgb(216, 212, 212);
   font-size: x-large;
+  
 }
 
 .intro{
-  height: 100vh;
-  min-height: 100vh;
+  height: 50vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -107,20 +108,39 @@ body {
   text-decoration: none;
   margin-top:  50px;
 }
+.informacion{
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.about-me{
+  font-size: 25px;
+}
+.my-hobi{
+font-size: 25px;
 
-.media-options{
-  height: 100vh;
-  min-height: 100vh;
+}
+.icons-for-social{
+  height: 50vh;
+  min-height: 50vh;
   margin-top: 50px;
   padding: 40px;
   position: relative;
   align-items: center;
   font-size: 35px;
+}
+.media-options{
+  font-size: 35px;
+ 
   
 }
   .social-links{
     height: 0;
-    min-height: 100vh;
+    min-height: 10vh;
     
     margin-top: 0px;
     padding: 70px;
