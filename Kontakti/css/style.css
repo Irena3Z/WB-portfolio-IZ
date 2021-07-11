@@ -7,10 +7,14 @@ body {
     list-style-type: none;
     text-decoration: none;
     max-height: max-content;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   a{
     text-decoration: none;
     color: #fff;
+    box-sizing: border-box;
+    max-height: max-content;
   }
     
     *{
@@ -126,10 +130,8 @@ body {
     #kontaktforma {
       box-sizing: border-box;
       max-width: 1500px;
+
       
-      margin: 10;
-      padding: 25px;
-      background-color: lightcoral;
       border: 1px rgb(240,240,240) solid;
     }
     .ui.form{
@@ -239,6 +241,6 @@ body {
     .one-field{
       display: flex;
       flex-direction: row;
-      margin: 0 ;
+      margin: 50px 0 70px 13px;
      
     }
