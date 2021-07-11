@@ -69,18 +69,6 @@
                 <img src="img/30.jpg" alt="My Pic" class="profile-image">
                
             </span>
-
-
-        
-                <h2 class="media-options">You can find me on these platforms</h2>
-                <span>
-                    <a class="social-links" href="https://www.linkedin.com/in/irena-zbitkovska-88b473206/" target="_Blank">Linkedin</a>
-                    <a class="social-links" href="" target="_Blank">Instagram</a>
-                    <a class="social-links" href="https://www.facebook.com/irena.3Bit/" target="_Blank">Facebook</a>
-                    <a class="social-links" href="https://github.com/Irena3Z" target="_Blank">GitHub</a>
-                    
-                </span>
-                   
         </div>
     </div>
 </div>
@@ -107,7 +95,7 @@
   
       <div class="mySlides">
         <div class="numbertext">1 / 4</div>
-        <img src="img1_wide.jpg" style="width:100%">
+        <img src="img/17.JPG" style="width:100%">
       </div>
   
       <div class="mySlides">
@@ -153,6 +141,38 @@
     </div>
   </div>
 
+
+<div id="app">
+  <section class="comments">
+  <h1>Comments</h1>
+  <form class="comments__form" action="/xampp/comments/" method="post">
+      <div class="form_block">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+      </div>
+
+      <div class="form_block">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="7"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+  </form>
+
+  <div class="comments__entries">
+      <?php ksort($comments); ?>
+      <?php foreach ($comments as $id => $comment): ?>
+         <div class="comment" data-id="<?= $id; ?>">
+              <?php $d = new DateTime(@$comment['time']); ?>
+              <span class="name"><?=@$comment['name']; ?></span>
+              <span class="time"><?=$d->format('d.m.Y H:i'); ?></span>
+              <pre><?=@$comment['message']; ?></pre>
+              <a class="remove" href="?remove=<?= $id; ?>">x</a>
+              <a class="update" href="update.php?id=<?= $id; ?>">edit</a>
+         </div>
+      <?php endforeach; ?>
+  </div>
+  </section>
+</div>
 </body>
 
 </html>
