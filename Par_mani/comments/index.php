@@ -51,7 +51,7 @@
                 <span class="time"><?=$d->format('d.m.Y H:i'); ?></span>
                 <pre><?=@$comment['message']; ?></pre>
                 <a class="remove" href="?remove=<?= $id; ?>">x</a>
-                <a class="update" href="update.php?id=<?= $id; ?>">edit</a>
+                <a class="update" href="/xampp/Portfolio_IZ/Par_mani/comments/update.php?id=<?= $id; ?>">edit</a>
            </div>
         <?php endforeach; ?>
     </div>

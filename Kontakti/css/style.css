@@ -47,10 +47,10 @@ body {
 }
 
 .nav-options.active {
-  max-width: 480px;
-    min-height: -webkit-fill-available;
-    min-height: 100px;
-    height: 100px;
+  max-width: 80px;
+   
+    min-height: 80px;
+    height: 400px;
     top: 80px;
     right: 0;
     opacity: 1;
@@ -59,6 +59,8 @@ body {
     -webkit-align-content: center;
     align-content: center;
     padding-left: 0;
+    box-sizing: border-box;
+    max-height: max-content;
 }
 .nav-options {
   max-width: 480px;
@@ -69,7 +71,9 @@ body {
   min-height: 100px;
   height: 100px;
   position: absolute;
-  top: -200%;
+  box-sizing: border-box;
+  max-height: max-content;
+  
   right: 0;
   opacity: 0;
   transition: all .5s ease;
@@ -92,6 +96,8 @@ body {
   width:100%;
   max-width: 100%;
   align-items: center;
+  box-sizing: border-box;
+  max-height: max-content;
 }
 
 
@@ -113,6 +119,8 @@ body {
     padding: 10px;
     border-right: 5px;
    background-color: lightcoral;
+   box-sizing: border-box;
+   max-height: max-content;
  }
 
  .about-h1{
@@ -133,10 +141,14 @@ body {
     margin-left: 100px;
     margin-right: 200px;
     align-items: stretch;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   
   .intro-text{
     font-size: 30px;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   
   
@@ -144,13 +156,13 @@ body {
     height: 50vh;
     min-height: 50vh;
     margin-top: 50px;
-    padding: 40px;
+    padding: 20px;
     position: relative;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
   }
   .media-options{
-    font-size: 35px;
+    font-size: 25px;
    
     
   }
@@ -159,27 +171,36 @@ body {
       min-height: 10vh;
       
       margin-top: 0px;
-      padding: 70px;
+      padding: 10px;
       
      
     } 
     
     #kontaktforma {
       box-sizing: border-box;
-      max-width: 1500px;
+      max-width: 1400px;
+      box-sizing: border-box;
+      max-height: max-content;
 
-      
       border: 1px rgb(240,240,240) solid;
+      box-sizing: border-box;
+      max-height: max-content;
     }
     .ui.form{
       font-size: 1rem;
       position: relative;
       max-width: 100%;
+      box-sizing: border-box;
+      max-height: max-content;
       
     }
     .ui.form.textarea{
       width: 100%;
     vertical-align: top;
+    box-sizing: border-box;
+    max-height: max-content;
+    box-sizing: border-box;
+    max-height: max-content;
     }
     input{
       font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -197,6 +218,8 @@ body {
       box-shadow: 0em 0em 0em 0em transparent inset;
       -webkit-transition: color 0.1s ease, border-color 0.1s ease;
       transition: color 0.1s ease, border-color 0.1s ease;
+      box-sizing: border-box;
+      max-height: max-content;
   }
     
     input.from textarea{
@@ -216,6 +239,8 @@ body {
     font-size: 1em;
     line-height: 1.2857;
     resize: vertical;
+    box-sizing: border-box;
+    max-height: max-content;
 
     }
     textarea {
@@ -245,13 +270,18 @@ body {
       border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
       border-image: initial;
       padding: 2px;
+      box-sizing: border-box;
+      max-height: max-content;
     }
     *{
       box-sizing: inherit;
+      box-sizing: border-box;
+      max-height: max-content;
     }
 
     .three.fields{
-     
+      box-sizing: border-box;
+      max-height: max-content;
       display: flex;
       flex-direction: row;
       flex: 0 1 auto;
@@ -265,19 +295,22 @@ body {
       flex: 0 1 auto;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    
+    box-sizing: border-box;
+    max-height: max-content;
     
 
     }
     .field.required{
       display: flex;
       flex-direction: column;
-      
+      box-sizing: border-box;
+      max-height: max-content;
 
     }
     .one-field{
       display: flex;
       flex-direction: row;
       margin: 50px 0 70px 13px;
-     
+      box-sizing: border-box;
+      max-height: max-content;
     }

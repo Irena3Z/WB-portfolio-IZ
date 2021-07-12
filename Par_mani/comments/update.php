@@ -15,7 +15,7 @@
     if (array_key_exists('id', $_GET)) {
         $comment = $comment_obj->getEntry((int) $_GET['id']);
         if (!$comment) {
-            header('Location: /xampp/Portfolio_IZ/Par_mani/comments/index.php');
+            header('Location: /xampp/Portfolio_IZ/Par_mani/index.php');
             exit();
         }
     }
@@ -32,7 +32,7 @@
             ]
         );
 
-        header('Location: /xampp/Portfolio_IZ/Par_mani/comments/index.php');
+        header('Location: /xampp/Portfolio_IZ/Par_mani/index.php');
         exit();
     }
 ?>
