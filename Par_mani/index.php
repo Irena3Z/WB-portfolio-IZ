@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Irena Zbitkovska</title>
 <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="\comments">
 
@@ -9,12 +10,15 @@
         <div class="container" style="transform: none;">
                 <h1 class="initials">IZ</h1>
                 <ul>
-                    <nav class="nav-options">
-                        <a aria-current="page" class="navbar-text" href="/xampp/Portfolio_IZ/">About me</a>
-                        <a class="navbar-text active" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
-                    </nav>
+                <div class="nav-options">
+                        <button class="mainmenubtn">Menu ▤</button>
+                        <div class="nav-options-child">
+                            <a aria-current="page" class="navbar-text" href="/xampp/Portfolio_IZ/">About me</a>
+                            <a class="navbar-text active" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
+                            <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
+                            <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
+                        </div>
+                     </div>
                 </ul>
             </div>
         </header>
@@ -47,8 +51,9 @@ body {
 
 /* Create four equal columns that floats next to eachother */
 .column {
+  margin-top: 5px;
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 /* The Modal (background) */
@@ -199,7 +204,6 @@ img.hover-shadow {
   <div class="column">
     <img src="img/11.JPG" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
   </div>
-  
   <div class="column">
     <img src="img/13.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
   </div>

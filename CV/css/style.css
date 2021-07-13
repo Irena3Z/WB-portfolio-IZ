@@ -48,29 +48,40 @@ body {
   font-size: 45px;
 }
 
- .navbar-text{
-    min-height: 50px;
-    color: #000;
-    font-size: 30px;
-    background-color: lightcoral;
-    margin: 15px;
-    display:inline-flex;
-    justify-content: space-between;
-    justify-items: center;
-    padding: 10px;
-    border-right: 5px;
-    font-size: x-large;
-    align-items: center;
-    font-weight: bold;
+.mainmenubtn {
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding:20px;
+  margin-top:20px;
 }
+
 
  .navbar-text:hover{
   background-color: rgb(163, 83, 83);
 }
 
 .nav-options {
-  display: flex;
-  flex-direction: row;
+  position: relative;
+  display: inline-block;
+}
+.nav-options-child{
+  display: none;
+background-color: black;
+min-width: 200px;
+}
+.nav-options-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+
+}
+.nav-options:hover .nav-options-child {
+  display: block;
+ 
 }
  
  .about-h1{
@@ -124,8 +135,6 @@ body {
     flex-wrap: nowrap;
     position: relative;
     margin-right: 0px;
-    margin-left: 100px;
-    margin-right: 200px;
     align-items: stretch;
     box-sizing: border-box;
     max-height: max-content;

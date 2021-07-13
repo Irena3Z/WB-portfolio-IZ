@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Irena Zbitkovska</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="icon-fonts.css" />
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,12 +12,15 @@
         <div class="container" style="transform: none;">
                 <h1 class="initials">IZ</h1>
                 <ul>
-                    <nav class="nav-options">
-                        <a aria-current="page" class="navbar-text active" href="/xampp/Portfolio_IZ/">About me</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
-                    </nav>
+                    <div class="nav-options">
+                        <button class="mainmenubtn">Menu ▤</button>
+                        <div class="nav-options-child">
+                            <a aria-current="page" class="navbar-text active" href="/xampp/Portfolio_IZ/">About me</a>
+                            <a class="navbar-text" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
+                            <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
+                            <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
+                        </div>
+                     </div>
                 </ul>
                    
             </div>
