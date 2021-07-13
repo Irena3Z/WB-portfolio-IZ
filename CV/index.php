@@ -10,8 +10,8 @@
 
 
     <header class="navbar">
-    <div class="container" style="transform: none;">
-                <h1 class="initials">IZ</h1>
+        <div class="container" style="transform: none;">
+            <h1 class="initials">IZ</h1>
                 <ul>
                     <div class="nav-options">
                         <button class="mainmenubtn">Menu ▤</button>
@@ -24,7 +24,7 @@
                      </div>
                 </ul>
                    
-            </div>
+         </div>
     </header>
     <!-- Main container -->  
     <div class="main-container">
@@ -167,4 +167,4 @@
         </aside>
         
       </div>
-    
+</html> 
