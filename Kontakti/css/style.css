@@ -11,168 +11,126 @@ body {
   line-height: inherit;
 }
   
-  *{
-      font-family: "Poppins",sans-serif;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      text-decoration: none;
-      max-height: -webkit-max-content;
-      max-height: max-content;
-  }
-
-  .menu-icon{
-   display: none;
-    color: lightcoral;
-    color:#000;
-
-    height:25px;
-    width:25px;
-  }
-  img, svg {
-    display: block;
-    vertical-align: middle;
-}
-
- .navbar{
-  color: lightcoral;
-  background-color: lightcoral;
-  font-size: x-large;
-  
-
- }
- .navbar-text:hover{
-  background-color: rgb(212, 97, 97);;
-}
-
-.nav-options.active {
-  max-width: 80px;
-   
-    min-height: 80px;
-    height: 400px;
-    top: 80px;
-    right: 0;
-    opacity: 1;
-    transition: all .5s ease;
-    z-index: 1;
-    -webkit-align-content: center;
-    align-content: center;
-    padding-left: 0;
-    box-sizing: border-box;
-    max-height: max-content;
-}
-.nav-options {
-  max-width: 480px;
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  min-height: -webkit-fill-available;
-  min-height: 100px;
-  height: 100px;
-  position: absolute;
-  box-sizing: border-box;
+*{
+  font-family: 'Poppins', sans-serif;
+  color:#fff;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
   max-height: max-content;
-  
-  right: 0;
-  opacity: 0;
-  transition: all .5s ease;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  list-style-type: none;
 }
+
+.navbar{
+  color: rgb(17, 15, 15);
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+ }
 
 .container{
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 10px 4px 10px 4px;
-  /* top right bottom left */
   position: relative;
   flex-direction: row;
   padding-left:50px;
-  color: lightcoral;
-  background-color: lightcoral;
   width:100%;
   max-width: 100%;
   align-items: center;
-  box-sizing: border-box;
-  max-height: max-content;
+  color: lightcoral;;
+  background-color: lightcoral;
 }
 
+.initials{
+  background-color: lightcoral;
+  color: #000;
+  font-size: 45px;
+}
 
- 
- .initials{
-   background-color: lightcoral;
-   color: #000;
-   font-size: 45px;
- }
- 
-
-  .navbar-text{
-    color: #000;
+ .navbar-text{
     min-height: 50px;
-    display: inline-flex;
-    flex-wrap: wrap;
+    color: #000;
+    font-size: 30px;
+    background-color: lightcoral;
+    margin: 15px;
+    display:inline-flex;
     justify-content: space-between;
     justify-items: center;
     padding: 10px;
     border-right: 5px;
-   background-color: lightcoral;
-   box-sizing: border-box;
-   max-height: max-content;
- }
+    font-size: x-large;
+    align-items: center;
+    font-weight: bold;
+}
 
+ .navbar-text:hover{
+  background-color: rgb(163, 83, 83);
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: row;
+}
+ 
  .about-h1{
   color:rgb(216, 212, 212);
-  font-size: x-large;
-  
+  font-size: x-large; 
 }
-  .intro{
-    max-width: 100%;
-    min-height: 50vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    position: relative;
-    justify-content: space-between;
-    margin-right: 0px;
-    padding: 70px;
-    margin-left: 100px;
-    margin-right: 200px;
-    align-items: stretch;
-    box-sizing: border-box;
-    max-height: max-content;
-  }
+
+.menu-icon{
+  background-color: rgb(163, 83, 83);
+  color:#000;
+  display: block;
+  height:25px;
+  width:25px;
+}
+
+.intro{
+  padding-top: 15px ;
+  height: 100vh;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  margin-right: 0px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 200px;
+}
   
   .intro-text{
-    font-size: 30px;
-    box-sizing: border-box;
-    max-height: max-content;
+    font-size: 50px;
   }
-  
   
   .icons-for-social{
     height: 50vh;
     min-height: 50vh;
     margin-top: 50px;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
+    box-sizing: border-box;
+    max-height: max-content;
   }
   .media-options{
-    font-size: 25px;
-   
-    
+    padding-bottom: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+    max-height: max-content;
+
   }
     .social-links{
-      height: 0;
+      width: 10px;
+      height: 10px;
       min-height: 10vh;
-      
-      margin-top: 0px;
+      margin: 10px;
       padding: 10px;
-      
+      box-sizing: border-box;
+      max-height: max-content;
      
     } 
     
@@ -181,7 +139,8 @@ body {
       max-width: 1400px;
       box-sizing: border-box;
       max-height: max-content;
-
+      width:100%;
+      max-width: 100%;
       border: 1px rgb(240,240,240) solid;
       box-sizing: border-box;
       max-height: max-content;
@@ -194,8 +153,15 @@ body {
       max-height: max-content;
       
     }
+    .ui.button{
+      box-sizing: border-box;
+      max-height: max-content;
+      max-width: 100%;
+
+    }
     .ui.form.textarea{
       width: 100%;
+      max-width: 100%;
     vertical-align: top;
     box-sizing: border-box;
     max-height: max-content;
@@ -205,6 +171,7 @@ body {
     input{
       font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
       margin: 0em;
+
       outline: none;
       -webkit-appearance: none;
       tap-highlight-color: rgba(255, 255, 255, 0);
@@ -241,6 +208,8 @@ body {
     resize: vertical;
     box-sizing: border-box;
     max-height: max-content;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 
     }
     textarea {
@@ -272,6 +241,8 @@ body {
       padding: 2px;
       box-sizing: border-box;
       max-height: max-content;
+      padding-left: 0.5em;
+    padding-right: 0.5em;
     }
     *{
       box-sizing: inherit;
@@ -283,7 +254,7 @@ body {
       box-sizing: border-box;
       max-height: max-content;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex: 0 1 auto;
     padding-left: 0.5em;
     padding-right: 0.5em;

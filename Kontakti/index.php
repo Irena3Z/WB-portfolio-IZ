@@ -20,10 +20,10 @@
                 <h1 class="initials">IZ</h1>
                 <ul>
                     <nav class="nav-options">
-                        <a aria-current="page" class="navbar-text active" href="/xampp/Portfolio_IZ/">About me</a>
+                        <a aria-current="page" class="navbar-text" href="/xampp/Portfolio_IZ/">About me</a>
                         <a class="navbar-text" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
                         <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
+                        <a class="navbar-text active" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
                     </nav>
                 </ul>
             </div>
@@ -54,14 +54,14 @@
                     </div>
                     <div class="field required">
                         <label>Send me a message</label>
-                        <textarea name="question" rows="8" style="border-radius: 0.28571429rem; color:black; background-color: aliceblue;"></textarea>
+                        <textarea name="question" rows="8" style="border-radius: 0.28571429rem; color:black; ;"></textarea>
                     </div>
                     <div class="one-field">
                         <div class="eight wide field">
                             <input type="submit" class="ui button"
                              style="float:right;
                              font-family: open Sans;
-                             width:300px" name="submit" value="Send">
+                             " name="submit" value="Send">
                         </div>
                     </div>
                 </form>

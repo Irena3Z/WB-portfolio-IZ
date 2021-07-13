@@ -6,12 +6,12 @@
 <div id="root">
     <div class="app">
         <header class="navbar">
-            <div class="container" style="transform: none;">
+        <div class="container" style="transform: none;">
                 <h1 class="initials">IZ</h1>
                 <ul>
-                <nav class="nav-options">
-                        <a aria-current="page" class="navbar-text active" href="/xampp/Portfolio_IZ/">About me</a>
-                        <a class="navbar-text" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
+                    <nav class="nav-options">
+                        <a aria-current="page" class="navbar-text" href="/xampp/Portfolio_IZ/">About me</a>
+                        <a class="navbar-text active" href="/xampp/Portfolio_IZ/Par_mani">Gallery</a>
                         <a class="navbar-text" href="/xampp/Portfolio_IZ/CV">Resume</a>
                         <a class="navbar-text" href="/xampp/Portfolio_IZ//Kontakti">Contacts</a>
                     </nav>
